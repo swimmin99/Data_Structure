@@ -11,10 +11,8 @@
       <td> Create repository </td>
       <td> 앞으로 열심히 하겠습니다:) </td>
     </tr>
-  </table>
-  
-    <table border="2">
-    <th>날짜</th>
+     <table border="2">
+      <th>날짜</th>
     <th>학습내용</th>
     <th>비고</th>
     <tr>
@@ -23,6 +21,8 @@
       <td> 앞으로 열심히 하겠습니다:) </td>
     </tr>
   </table>
+  
+    
   
   
 </html>
