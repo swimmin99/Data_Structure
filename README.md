@@ -8,7 +8,7 @@
     <th>비고</th>
     <tr>
       <td>2022-10-18</td>
-      <td><a href="https://github.com/swimmin99/Data_Structure/blob/main/list1.c">Label</a>y </td>
+      <td><a href="https://github.com/swimmin99/Data_Structure/blob/main/list1.c"> List01 </a> </td>
       <td> 자료구조 01 - 연결리스트 </td>
     <tr>
       <td>2022-10-19</td>
