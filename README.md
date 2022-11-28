@@ -2,11 +2,11 @@
 2022학년도 2학기 Data Structure
 
 <html>
-  <table border="1" bgcolor="skyblue">
+  <table border="1">
     <th>날짜</th>
     <th>학습내용</th>
     <th>비고</th>
-    <tr bgcolor = "#ffcccc">
+    <tr>
       <td>2022-10-18</td>
       <td><a href="https://github.com/swimmin99/Data_Structure/blob/main/list1.c"> List01 </a> </td>
       <td> 자료구조 01 - 연결리스트 </td>
