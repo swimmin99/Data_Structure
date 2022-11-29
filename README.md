@@ -2,14 +2,16 @@
 ![header](https://capsule-render.vercel.app/api?type=rect&height=50&color=f5f5dc&text=2022학년도2학기&fontColor=929292&fontSize=20)
 
 
-
+|날짜|코드|학습목표|
+|------|---|----|
+|2022-10-18|ㅇㅇ|자료구조01 - 연결리스트|
+|테스트1|테스트2|테스트3|
+|테스트1|테스트2|테스트3|
 
 
 
 <html>
   <table border="1">
-   <style =
-         "width:80%">
     <th align = "center">날짜</th>
     <th align = "center">코드</th>
     <th align = "center">학습목표</th>
@@ -47,7 +49,6 @@
       <td> Create repository </td>
       <td> 자료구조 02 - 그래프 </td>
   </table>
-  
  </style>
 </html>
 
