@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=auto&text=DataStructure&fontColor=0000)
+![header](https://capsule-render.vercel.app/api?type=waving&color=auto&text=DataStructure&fontColor=000000)
 2022학년도 2학기 Data Structure
 
 
