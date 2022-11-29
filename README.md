@@ -7,8 +7,8 @@
     <th>학습목차</th>
     <tr>
       <td>2022-10-18</td>
-      <td><a href="https://github.com/swimmin99/Data_Structure/blob/main/list1.c"> List01 </a> /
-      <a href="https://github.com/swimmin99/Data_Structure/blob/main/list2.c"> List02 </a></td>
+      <td><a href="https://github.com/swimmin99/Data_Structure/blob/main/list1.c"> ListSort01 </a> /
+      <a href="https://github.com/swimmin99/Data_Structure/blob/main/list2.c"> ListSort02 </a></td>
       <td> 자료구조 01 - 연결리스트 </td>
     <tr>
       <td>2022-10-19</td>
