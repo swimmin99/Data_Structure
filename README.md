@@ -1,15 +1,60 @@
 # Data_Structure
 2022학년도 2학기 Data Structure
+<scss>
+  body {
+  background: #000;
+  padding: 2rem;
+}
+
+h2 {
+  font-family: 'Arial';
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 0.75;
+}
+
+span {
+  display: block;
+}
+
+span:not(.light) {
+  opacity: 0;
+  animation: flashText .5s ease-out alternate infinite;
+}
+
+span.light {
+  position: relative;
+  display: inline-block;
+  
+  &:before {
+    position: absolute;
+    left: 0;
+    top: -10%;
+    width: 100%;
+    height: 120%;
+    background: #fff;
+    filter: blur(10px);
+    content: "";
+    opacity: 0;
+    animation: flash .5s ease-out alternate infinite;
+  }
+}
+
+@keyframes flash{
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes flashText {
+  to {
+    opacity: 0.15;
+  }
+}
+  
 <html>
-<h2>
-  <span>There's</span>  
-  <span class="light">light</span> 
-  <span> even in</span> 
-  <span>the darkest</span>  
-  <span>places</span>
-</h2>
-
-
   <table border="1">
     <th>날짜</th>
     <th>코드</th>
