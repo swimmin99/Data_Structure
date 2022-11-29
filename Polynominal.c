@@ -1,3 +1,9 @@
+//plynominal.c (Upgraded Version)
+//PROBLEM : Polynominal Addition Calculator
+//CONDITION : Use rear, Can calculate N amount of polynominals
+//INPUT : stdin
+//ADT : insert, attach, padd, delete, printList
+//=======================================================================================================================================//
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
