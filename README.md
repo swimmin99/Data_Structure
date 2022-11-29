@@ -7,7 +7,7 @@
   
 |날짜|코드|학습목표|
 |------|---|----|
-|2022-10-18|[List Sort01][(http://www.google.co.kr](https://github.com/swimmin99/Data_Structure/blob/main/list1.c)|자료구조01 - 연결리스트|
+|2022-10-18|[List Sort01](https://github.com/swimmin99/Data_Structure/blob/main/list1.c)|자료구조01 - 연결리스트|
 |테스트1|테스트2|테스트3|
 |테스트1|테스트2|테스트3|
   
