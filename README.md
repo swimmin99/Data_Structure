@@ -7,11 +7,12 @@
 
 
 <html>
+         <table style="width:100%">
    <body>
     <th align = "center">날짜</th>
     <th align = "center">코드</th>
     <th align = "center">학습목표</th>
-      <table style="width:100%">
+
     <tr>
       <td>2022-10-18</td>
       <td><a href="https://github.com/swimmin99/Data_Structure/blob/main/list1.c"> List Sort 01 </a> /
