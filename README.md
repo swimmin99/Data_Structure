@@ -7,8 +7,8 @@
 
 
 <html>
-   <body>
-         <table style="width:100%">
+   <style =
+         "width:100%">
     <th align = "center">날짜</th>
     <th align = "center">코드</th>
     <th align = "center">학습목표</th>
@@ -47,6 +47,6 @@
       <td> 자료구조 02 - 그래프 </td>
   </table>
   
- 
+ </style>
 </html>
 
