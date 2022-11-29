@@ -1,6 +1,6 @@
 # Data_Structure
 2022학년도 2학기 Data Structure
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=footer)
+
 
 
   
@@ -44,6 +44,7 @@
       <td> 자료구조 02 - 그래프 </td>
   </table>
   
-  
-  
+ 
 </html>
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=footer)
