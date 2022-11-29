@@ -1,6 +1,9 @@
 # Data_Structure
 2022학년도 2학기 Data Structure
 <html>
+ <progress value="50" max="100"></progress>
+
+
   <table border="1">
     <th>날짜</th>
     <th>코드</th>
