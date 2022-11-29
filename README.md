@@ -1,6 +1,5 @@
 # Data_Structure
 2022학년도 2학기 Data Structure
-
 <html>
   <table border="1">
     <th>날짜</th>
@@ -8,11 +7,12 @@
     <th>학습목차</th>
     <tr>
       <td>2022-10-18</td>
-      <td><a href="https://github.com/swimmin99/Data_Structure/blob/main/list1.c"> List01 </a> / <a href="https://github.com/swimmin99/Data_Structure/blob/main/list2.c"> List02 </a></td>
+      <td><a href="https://github.com/swimmin99/Data_Structure/blob/main/list1.c"> List01 </a> /
+      <a href="https://github.com/swimmin99/Data_Structure/blob/main/list2.c"> List02 </a></td>
       <td> 자료구조 01 - 연결리스트 </td>
     <tr>
       <td>2022-10-19</td>
-      <td> Create repository </td>
+      <td> <a href="https://github.com/swimmin99/Data_Structure/blob/main/Polynominal.c"> Polynominal List </a> </td>
       <td> 자료구조 02 - 연결리스트 </td>
     <tr>
       <td>2022-11-06</td>
