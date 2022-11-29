@@ -9,7 +9,7 @@
 <html>
    <table border="1">
     <th align = "center">날짜</th>
-    <th align = "center">                                                코드</th>
+    <th align = "center">                                                                          코드</th>
     <th align = "center">학습목표</th>
     <tr>
       <td>2022-10-18</td>
