@@ -1,5 +1,5 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&height=250&color=89a5ea&text=DataStructure&fontColor=f5f5dc)
-![header](https://capsule-render.vercel.app/api?type=rect&height=150&color=000000&text=2022학년도2학기Color=f5f5dc)
+![header](https://capsule-render.vercel.app/api?type=rect&height=150&color=f5f5dc&text=2022학년도2학기Color=000000)
 
 
 
