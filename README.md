@@ -8,7 +8,7 @@
 
 <html>
    <style =
-         "width:100%">
+         "width:80%">
     <th align = "center">날짜</th>
     <th align = "center">코드</th>
     <th align = "center">학습목표</th>
