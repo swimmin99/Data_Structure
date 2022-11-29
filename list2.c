@@ -1,3 +1,9 @@
+//list2.c
+//PROBLEM : Need to sort (in increasing order) a linkded list during insertion
+//CONDITION : Do not use additional function to get position to insert, Do not initiate first(head node) as global variable, Duplicate value must be eradicated before adding
+//INPUT : .txt/int/ex) 10 20 35
+//ADT : insert/position/print/delete
+//=======================================================================================================================================//
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
