@@ -5,14 +5,12 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&height=250&color=89a5ea&text=DataStructure&fontColor=f5f5dc)
 ![header](https://capsule-render.vercel.app/api?type=rect&height=50&color=f5f5dc&text=2022학년도2학기&fontColor=929292&fontSize=20)
   
-</div>
-
- <div align="center">
 |날짜|코드|학습목표|
 |------|---|----|
-|2022-10-18|ㅇㅇ|자료구조01 - 연결리스트|
+|2022-10-18|[List Sort01][(http://www.google.co.kr](https://github.com/swimmin99/Data_Structure/blob/main/list1.c)|자료구조01 - 연결리스트|
 |테스트1|테스트2|테스트3|
 |테스트1|테스트2|테스트3|
+  
 </div>
 
 
