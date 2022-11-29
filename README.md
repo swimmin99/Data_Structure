@@ -10,6 +10,7 @@
 <html>
 
   <table border="1">
+    <table style="margin-left: auto; margin-right: auto;">
     <th>날짜</th>
     <th>코드</th>
     <th>학습목차</th>
