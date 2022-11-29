@@ -7,6 +7,7 @@
 
 
 <html>
+  <table border="1">
    <style =
          "width:80%">
     <th align = "center">날짜</th>
