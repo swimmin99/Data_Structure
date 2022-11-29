@@ -16,7 +16,7 @@
       <td> 자료구조 02 - 연결리스트 </td>
     <tr>
       <td>2022-11-06</td>
-      <td> Create repository </td>
+      <td>  <a href="https://github.com/swimmin99/Data_Structure/blob/main/SparceMatrix.c"> Sparce Matrix </a> </td>
       <td> 자료구조 03 - 연결리스트  </td>
     <tr>
       <td>2022-11-06</td>
