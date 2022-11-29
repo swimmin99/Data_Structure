@@ -10,11 +10,11 @@
 <html>
   <table>
   <table border="1">
-    <th>날짜</th>
-    <th>코드</th>
-    <th>학습목차</th>
+    <th align = "center">날짜</th>
+    <th align = "center">코드</th>
+    <th align = "cnter">학습목표</th>
     <tr>
-      <td>2022-10-18</td>
+      <td align = "center>>2022-10-18</td>
       <td><a href="https://github.com/swimmin99/Data_Structure/blob/main/list1.c"> List Sort 01 </a> /
       <a href="https://github.com/swimmin99/Data_Structure/blob/main/list2.c"> List Sort 02 </a></td>
       <td> 자료구조 01 - 연결리스트 </td>
