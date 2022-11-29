@@ -43,18 +43,6 @@
       <td> 자료구조 02 - 그래프 </td>
   </table>
   
-  <div class="like-content">
-  
-  <span>
-    Did you like this review? Press like to make it easier for others to see
-  </span>
-  
-  <button class="btn-secondary like-review">
-    <i class="fa fa-heart" aria-hidden="true"></i> Like
-  </button>
-  
-</div>
-    
   
   
 </html>
