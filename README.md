@@ -4,8 +4,8 @@
 <html>
   <table border="1">
     <th>날짜</th>
-    <th>학습내용</th>
-    <th>비고</th>
+    <th>코드</th>
+    <th>학습목차</th>
     <tr>
       <td>2022-10-18</td>
       <td><a href="https://github.com/swimmin99/Data_Structure/blob/main/list1.c"> List01 </a> / <a href="https://github.com/swimmin99/Data_Structure/blob/main/list2.c"> List02 </a></td>
