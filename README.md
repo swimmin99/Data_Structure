@@ -1,6 +1,7 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&height=250&color=89a5ea&text=DataStructure&fontColor=f5f5dc)
 ![header](https://capsule-render.vercel.app/api?type=rect&height=50&color=f5f5dc&text=2022학년도2학기&fontColor=929292&fontSize=20)
 
+<center>
 
 |날짜|코드|학습목표|
 |------|---|----|
@@ -8,6 +9,7 @@
 |테스트1|테스트2|테스트3|
 |테스트1|테스트2|테스트3|
 
+</center>
 
 
 <html>
