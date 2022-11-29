@@ -1,3 +1,9 @@
+//SparceMatrix.c (Upgraded Version)
+//PROBLEM : Generate Sparce Matrix using linked list
+//CONDITION : Use union and tag field for struct, Display menu
+//INPUT : stdin
+//ADT : newNode, mread(generate list), mwrite(print list), merase, mprint(print matrix)
+//=======================================================================================================================================//
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
