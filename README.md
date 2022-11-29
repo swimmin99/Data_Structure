@@ -7,9 +7,10 @@
 
 
 <html>
-   
+   <body>
+ 
+ <table style="border: 1px solid red; width:60%; height: 100px; margin: auto; text-align: center;">
    <table border="1">
-      margin : auto;
     <th align = "center">날짜</th>
     <th align = "center">코드</th>
     <th align = "center">학습목표</th>
