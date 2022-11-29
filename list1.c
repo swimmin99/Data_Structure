@@ -1,6 +1,9 @@
+//list1.c
+//PROBLEM : Need to sort (in increasing order) a linkded list during insertion
+//CONDITION : Do not use rear, Use additional function to get position to insert, Do not initiate first(head node) as global variable
 //INPUT : .txt/int/ex) 10 20 35
-//PROBLEM : Need to sort a list during insertion (!do not use rear!)
 //ADT : insert/position/print/delete
+//=======================================================================================================================================//
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
