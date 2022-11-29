@@ -6,9 +6,8 @@
 
 
 
-  
 <html>
-  <table>
+  <table style = "margin-left: auto; margin-right: auto;">
   <table border="1">
     <th align = "center">날짜</th>
     <th align = "center">코드</th>
