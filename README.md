@@ -10,14 +10,14 @@
 <html>
   <table>
   <table border="1">
-    <th align = "left">날짜</th>
+    <th align = "center">날짜</th>
     <th align = "center">코드</th>
-    <th align = "right">학습목표</th>
+    <th align = "center">학습목표</th>
     <tr>
-      <td align = "left>>2022-10-18</td>
-      <td align = "center">><a href="https://github.com/swimmin99/Data_Structure/blob/main/list1.c"> List Sort 01 </a> /
+      <td>2022-10-18</td>
+      <td><a href="https://github.com/swimmin99/Data_Structure/blob/main/list1.c"> List Sort 01 </a> /
       <a href="https://github.com/swimmin99/Data_Structure/blob/main/list2.c"> List Sort 02 </a></td>
-      <td align = "right"> 자료구조 01 - 연결리스트 </td>
+      <td> 자료구조 01 - 연결리스트 </td>
     <tr>
       <td>2022-10-19</td>
       <td> <a href="https://github.com/swimmin99/Data_Structure/blob/main/Polynominal.c"> Polynominal List </a> </td>
