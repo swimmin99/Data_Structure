@@ -16,8 +16,8 @@
 |2022-11-09|[Doubly Linked List](https://github.com/swimmin99/Data_Structure/blob/main/04_List/List3.c)|이중리스트|자료구조03 - 연결리스트|
 
 </div>
+<img src="https://img.shields.io/badge/C-808080?style=flat-square&logo=C%2B%2B&logoColor=white"/></a>
 
 [^1]: 오름차순 정렬, 정렬 시 전체 리스트 탐색.
 [^2]: 오름차순 정렬, 중복 값 삭제 후 삽입, 정렬 시 전체 리스트 탐색
 
-  <img src="https://img.shields.io/badge/C-808080?style=flat-square&logo=C%2B%2B&logoColor=white"/></a>
