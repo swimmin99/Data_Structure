@@ -5,7 +5,7 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&height=250&color=89a5ea&text=DataStructure&fontColor=ffffff)
 ![header](https://capsule-render.vercel.app/api?type=rect&height=50&color=ebf3f5&text=2022학년도2학기&fontColor=929292&fontSize=20)
   
- FINAL
+ FINAL&fontColor=808080
  ---
 |날짜|코드|문제유형|학습목표|
 |------|---|----|----|
