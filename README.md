@@ -22,5 +22,6 @@
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/></a>&nbsp
 <img src="https://img.shields.io/badge/Visual-Studio-5C2D91?style=flat-square&logo=Visual-Studio&logoColor=white"/></a>&nbsp<br>
 </p>
+---
 [^1]: 오름차순 정렬, 정렬 시 전체 리스트 탐색.
 [^2]: 오름차순 정렬, 중복 값 삭제 후 삽입, 정렬 시 전체 리스트 탐색
