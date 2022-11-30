@@ -4,8 +4,7 @@
   
 ![header](https://capsule-render.vercel.app/api?type=waving&height=250&color=89a5ea&text=Data%20Structure&fontColor=ffffff)
 ![header](https://capsule-render.vercel.app/api?type=rect&height=50&color=ebf3f5&text=2022학년도2학기&fontColor=000000&fontSize=20)
-  
-  <img src="https://img.shields.io/badge/C-808080?style=flat-square&logo=C%2B%2B&logoColor=white"/></a>&nbsp
+ 
  FINAL
  ---
 |날짜|코드|문제유형|학습목표|
@@ -20,3 +19,5 @@
 
 [^1]: 오름차순 정렬, 정렬 시 전체 리스트 탐색.
 [^2]: 오름차순 정렬, 중복 값 삭제 후 삽입, 정렬 시 전체 리스트 탐색
+
+  <img src="https://img.shields.io/badge/C-808080?style=flat-square&logo=C%2B%2B&logoColor=white"/></a>
