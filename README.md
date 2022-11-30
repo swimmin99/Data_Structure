@@ -14,6 +14,7 @@
 |2022-11-06|[Polynominal](https://github.com/swimmin99/Data_Structure/blob/main/04_List/Polynominal.c)|다항식|자료구조02 - 연결리스트|
 |2022-11-09|[Sparce Matrix](https://github.com/swimmin99/Data_Structure/blob/main/04_List/SparceMatrix.c)|행렬|자료구조03 - 연결리스트|
 |2022-11-09|[Doubly Linked List](https://github.com/swimmin99/Data_Structure/blob/main/04_List/List3.c)|이중리스트|자료구조03 - 연결리스트|
+|2022-11-12|[Doubly Linked List with Menu](https://github.com/swimmin99/Data_Structure/blob/main/04_List/List4.c)|이중리스트 메뉴|자료구조04 - 연결리스트|
 
 </div>
 
