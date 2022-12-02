@@ -11,11 +11,12 @@
 |------|---|----|----|
 |2022-10-18|[List Sort 01](https://github.com/swimmin99/Data_Structure/blob/main/04_List/List1.c)|리스트 입력[^1]|자료구조01 - 연결리스트|
 |2022-10-18|[List Sort 02](https://github.com/swimmin99/Data_Structure/blob/main/04_List/List2.c)|리스트 입력[^2]|자료구조01 - 연결리스트|
-|2022-11-06|[Polynominal](https://github.com/swimmin99/Data_Structure/blob/main/04_List/Polynominal.c)|다항식|자료구조02 - 연결리스트|
-|2022-11-09|[Sparce Matrix](https://github.com/swimmin99/Data_Structure/blob/main/04_List/SparceMatrix.c)|희소행렬|자료구조03 - 연결리스트|
-|2022-11-09|[Doubly Linked List](https://github.com/swimmin99/Data_Structure/blob/main/04_List/List3.c)|이중리스트|자료구조03 - 연결리스트|
-|2022-11-12|[Doubly Linked List with Menu](https://github.com/swimmin99/Data_Structure/blob/main/04_List/List4.c)|이중리스트 메뉴|자료구조04 - 연결리스트|
-|2022-11-15|[Heap Tree]( https://github.com/swimmin99/Data_Structure/blob/main/05_Tree/heaptree.c)|힙 트리|자료구조01 - 트리|
+|2022-10-31|[Polynominal](https://github.com/swimmin99/Data_Structure/blob/main/04_List/Polynominal.c)|다항식|자료구조02 - 연결리스트|
+|2022-11-31|[Sparce Matrix](https://github.com/swimmin99/Data_Structure/blob/main/04_List/SparceMatrix.c)|희소행렬|자료구조03 - 연결리스트|
+|2022-11-02|[Doubly Linked List](https://github.com/swimmin99/Data_Structure/blob/main/04_List/List3.c)|이중리스트|자료구조03 - 연결리스트|
+|2022-11-02|[Doubly Linked List with Menu](https://github.com/swimmin99/Data_Structure/blob/main/04_List/List4.c)|이중리스트 메뉴|자료구조04 - 연결리스트|
+|2022-11-09|[Heap Tree]( https://github.com/swimmin99/Data_Structure/blob/main/05_Tree/heaptree.c)|힙 트리|자료구조02 - 트리|
+|2022-11-14|[Graph](https://github.com/swimmin99/Data_Structure/blob/main/06_Graph/graph1.c)|그래프|자료구조01 - 그래프|
 
 </div>
 
