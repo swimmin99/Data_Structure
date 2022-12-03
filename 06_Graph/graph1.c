@@ -1,7 +1,11 @@
+//undirected adjacency graph
+// condition : don't use dynamic allocation
+//input via file(.txt)
+//ADT : attach, newNode
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
-
+#define MALLOC(p, s) if(!((p) = malloc(s))){fprintf(stderr, "Memory failed"); exit(EXIT_FAILURE);}
 typedef struct node* nodePointer;
 typedef struct node {
 	int data;
@@ -9,65 +13,57 @@ typedef struct node {
 };
 
 
-nodePointer  attach(nodePointer head, int** arr, int headnum);
-int** make2dArray(int rows, int cols);
-void print2darr(int** a, int rows, int cols);
-void init2darr(int** a, int rows, int cols);
-nodePointer newNode();
+void attach(nodePointer head[], int arr[][10], int num);
 
-int main() {
-	int** arr;
+int main () {
+	int arr[10][10] = {0};
+	int num;
+	node head[100];
+	nodePointer result;
+	
 	FILE* fp = NULL;
-	if (!(fp = fopen("in.txt", "r+")))
-		exit(0);
-	int headnum;
+	if (!(fp = fopen("in.txt", "r+"))) {
+		fprintf(stderr, "File open failed");
+		exit(EXIT_FAILURE);
+	}
 
-	fscanf(fp, "%d", &headnum);
-	arr = make2dArray(headnum, headnum);
-
-	nodePointer head;
-	head = malloc(sizeof(nodePointer) * headnum);
-
-
-
-
-	init2darr(arr, headnum, headnum);
+	fscanf(fp, "%d", &num);
 
 	int input;
-	for (int i = 0; i < headnum; i++) {
-		int j = i+ 1;
-		for (j; j < headnum; j++) {
+	for (int i = 0; i < num; i++) {
+		int j = i + 1;
+		for (j; j < num; j++) {
 			fscanf(fp, "%d", &input);
 			arr[i][j] = input;
 			arr[j][i] = input;
 		}
-
 	}
 
-	nodePointer result;
-	result = attach(head, arr, headnum);
+	attach(head, arr, num);
 
-	for (int i = 0; i < headnum; i++) {
-		 printf("Vertex %d : ", i);
-		for (; result[i].link; result[i].link = result[i].link->link)
-			printf("%d ", result[i].link->data);
-		if (result[i].link->link == NULL);
+	for (int i = 0; i < num; i++) {
+		printf("Vertex %d : ", i);
+		for (; head[i].link; head[i].link = head[i].link->link)
+			printf("%d", head[i].link->data);
+		if (head[i].link->link == NULL);
+
 		puts(" ");
-
 	}
-
 
 	fclose(fp);
+	
 	return 0;
+
+
 }
 
-nodePointer attach(nodePointer head, int** arr, int headnum) {
+void attach(node head[], int arr[][10], int num) {
 	nodePointer rear;
-	for (int i = 0; i < headnum; i++) {
+	for (int i = 0; i < num; i++) {
 		rear = NULL;
 		int j = i;
 
-		while(1){
+		while (1) {
 			if (arr[i][j] == 1) {
 				nodePointer temp = newNode();
 				if (!rear)
@@ -78,49 +74,17 @@ nodePointer attach(nodePointer head, int** arr, int headnum) {
 				temp->data = j;
 				temp->link = NULL;
 				rear = temp;
-			}j++; 
-			if (j == headnum)
-				j = 0;
+			}j++;
 
+			if (j == num)
+				j = 0;
 			if (j == i)
 				break;
 
+
 		}
-
 	}
 
-	return head;
 }
 
-int** make2dArray(int rows, int cols) {
 
-	int** x = (int**)malloc(sizeof(int*) * rows);
-
-	for (int i = 0; i < rows; i++)
-		x[i] = (int*)malloc(sizeof(int) * cols);
-
-	return x;
-
-}
-
-void print2darr(int** a, int rows, int cols) {
-	int i, j;
-	for (i = 0; i < rows; i++) {
-		printf("\n");
-		for (j = 0; j < cols; j++)
-			printf("%d ", a[i][j]);
-	}
-}
-
-void init2darr(int** a, int rows, int cols) {
-	int i, j;
-	for (i = 0; i < rows; i++) {
-		for (j = 0; j < cols; j++)
-			a[i][j] = 0;
-	}
-}
-
-nodePointer newNode() {
-	nodePointer temp = malloc(sizeof(*temp));
-	return temp;
-}
