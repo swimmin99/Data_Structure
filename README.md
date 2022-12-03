@@ -16,14 +16,16 @@
 |2022-11-02|[Doubly Linked List](https://github.com/swimmin99/Data_Structure/blob/main/04_List/List3.c)|이중리스트|자료구조03 - 연결리스트|
 |2022-11-02|[Doubly Linked List with Menu](https://github.com/swimmin99/Data_Structure/blob/main/04_List/List4.c)|이중리스트 메뉴|자료구조04 - 연결리스트|
 |2022-11-09|[Heap Tree]( https://github.com/swimmin99/Data_Structure/blob/main/05_Tree/heaptree.c)|힙 트리|자료구조02 - 트리|
-|2022-11-14|[Graph](https://github.com/swimmin99/Data_Structure/blob/main/06_Graph/graph1.c)|그래프|자료구조01 - 그래프|
+|2022-11-14|[Graph](https://https://github.com/swimmin99/Data_Structure/blob/main/06_Graph/graph1-S.c)|그래프[3]|자료구조01 - 그래프|
+|2022-11-14|[Graph](https://https://github.com/swimmin99/Data_Structure/blob/main/06_Graph/graph1-D.c)|그래프[4]|자료구조01 - 그래프|
 
 </div>
 
 
 [^1]: 오름차순 정렬, 정렬 시 전체 리스트 탐색.
 [^2]: 오름차순 정렬, 중복 값 삭제 후 삽입, 정렬 시 전체 리스트 탐색
-
+[^3]: adjecency Matrix, 노드포인터 배열 정적 할당
+[^4]: adjecency Matrix, 노드포인터 배열 동적 할당
 ---
 <p align = "left">
 <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C%2B%2B&logoColor=white"/></a>&nbsp
