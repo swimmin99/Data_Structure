@@ -1,5 +1,5 @@
 //undirected adjacency graph
-// condition : don't use dynamic allocation
+// condition : adjacency matrix and nod head should be allocated statically
 //input via file(.txt)
 //ADT : attach, newNode
 #define _CRT_SECURE_NO_WARNINGS
@@ -10,15 +10,14 @@ typedef struct node* nodePointer;
 typedef struct node {
 	int data;
 	nodePointer link;
-};
+} node;
 
-
-void attach(nodePointer head[], int arr[][10], int num);
-
+void attach(node head[], int arr[][10], int num);
+nodePointer newNode();
 int main () {
 	int arr[10][10] = {0};
 	int num;
-	node head[100];
+	node head [100];
 	nodePointer result;
 	
 	FILE* fp = NULL;
@@ -44,7 +43,7 @@ int main () {
 	for (int i = 0; i < num; i++) {
 		printf("Vertex %d : ", i);
 		for (; head[i].link; head[i].link = head[i].link->link)
-			printf("%d", head[i].link->data);
+			printf("%d ", head[i].link->data);
 		if (head[i].link->link == NULL);
 
 		puts(" ");
@@ -87,4 +86,10 @@ void attach(node head[], int arr[][10], int num) {
 
 }
 
+
+nodePointer newNode() {
+	nodePointer temp;
+	MALLOC(temp, sizeof(*temp));
+	return temp;
+}
 
