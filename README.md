@@ -18,7 +18,7 @@ FINAL
 |2022-11-09|[Heap Tree]( https://github.com/swimmin99/Data_Structure/blob/main/05_Tree/heaptree.c)|힙 트리|자료구조02 - 트리|
 |2022-11-14|[Graph 01](https://https://github.com/swimmin99/Data_Structure/blob/main/06_Graph/graph1-S.c)|그래프[^3]|자료구조01 - 그래프|
 |2022-11-14|[Graph 02](https://https://github.com/swimmin99/Data_Structure/blob/main/06_Graph/graph1-D.c)|그래프[^4]|자료구조01 - 그래프|
-|2022-11-16|[Graph DFS]( https://github.com/swimmin99/Data_Structure/blob/main/06_Graph/graph2.c)|그래프[^4]|자료구조02 - 그래프|
+|2022-11-16|[Graph DFS]( https://github.com/swimmin99/Data_Structure/blob/main/06_Graph/graph2.c)|그래프[^3]|자료구조02 - 그래프|
 
 </div>
 
@@ -27,6 +27,7 @@ FINAL
 [^2]: 오름차순 정렬, 중복 값 삭제 후 삽입, 정렬 시 전체 리스트 탐색
 [^3]: adjecency Matrix, 노드포인터 배열 정적 할당
 [^4]: adjecency Matrix, 노드포인터 배열 동적 할당
+
 ---
 <p align = "left">
 <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C%2B%2B&logoColor=white"/></a>&nbsp
