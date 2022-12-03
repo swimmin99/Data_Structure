@@ -16,8 +16,8 @@
 |2022-11-02|[Doubly Linked List](https://github.com/swimmin99/Data_Structure/blob/main/04_List/List3.c)|이중리스트|자료구조03 - 연결리스트|
 |2022-11-02|[Doubly Linked List with Menu](https://github.com/swimmin99/Data_Structure/blob/main/04_List/List4.c)|이중리스트 메뉴|자료구조04 - 연결리스트|
 |2022-11-09|[Heap Tree]( https://github.com/swimmin99/Data_Structure/blob/main/05_Tree/heaptree.c)|힙 트리|자료구조02 - 트리|
-|2022-11-14|[Graph](https://https://github.com/swimmin99/Data_Structure/blob/main/06_Graph/graph1-S.c)|그래프[^3]|자료구조01 - 그래프|
-|2022-11-14|[Graph](https://https://github.com/swimmin99/Data_Structure/blob/main/06_Graph/graph1-D.c)|그래프[^4]|자료구조01 - 그래프|
+|2022-11-14|[Graph 01](https://https://github.com/swimmin99/Data_Structure/blob/main/06_Graph/graph1-S.c)|그래프[^3]|자료구조01 - 그래프|
+|2022-11-14|[Graph 02](https://https://github.com/swimmin99/Data_Structure/blob/main/06_Graph/graph1-D.c)|그래프[^4]|자료구조01 - 그래프|
 
 </div>
 
