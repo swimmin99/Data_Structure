@@ -5,6 +5,7 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&height=250&color=89a5ea&text=Data%20Structure&fontColor=ffffff)
 ![header](https://capsule-render.vercel.app/api?type=rect&height=50&color=ebf3f5&text=2022학년도2학기&fontColor=000000&fontSize=20)
 
+
 FINAL
  ---
 |날짜|코드|문제유형|학습목표|
@@ -16,6 +17,7 @@ FINAL
 |2022-11-31|[Sparce Matrix](https://github.com/swimmin99/Data_Structure/blob/main/04_List/SparceMatrix.c)|희소행렬|자료구조03 - 연결리스트|
 |2022-11-02|[Doubly Linked List](https://github.com/swimmin99/Data_Structure/blob/main/04_List/List3.c)|이중리스트|자료구조03 - 연결리스트|
 |2022-11-02|[Doubly Linked List with Menu](https://github.com/swimmin99/Data_Structure/blob/main/04_List/List4.c)|이중리스트 메뉴|자료구조04 - 연결리스트|
+|2022-11-09|[Binary Tree]( https://github.com/swimmin99/Data_Structure/blob/main/05_Tree/traversal.c)|트리 순회|자료구조02 - 트리|
 |2022-11-09|[Heap Tree]( https://github.com/swimmin99/Data_Structure/blob/main/05_Tree/heaptree.c)|힙 트리|자료구조02 - 트리|
 |2022-11-14|[Graph 01](https://https://github.com/swimmin99/Data_Structure/blob/main/06_Graph/graph1-S.c)|그래프[^3]|자료구조01 - 그래프|
 |2022-11-14|[Graph 02](https://https://github.com/swimmin99/Data_Structure/blob/main/06_Graph/graph1-D.c)|그래프[^4]|자료구조01 - 그래프|
