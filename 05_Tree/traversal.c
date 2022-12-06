@@ -10,38 +10,22 @@ typedef struct node {
 	treePointer leftChild, rightChild;
 };
 
-treePointer newNode() {
-	treePointer temp;
-	MALLOC(temp, sizeof(*temp));
-
-	return temp;
-}
-
-void insert(treePointer ptr, FILE *fp) {
-	treePointer rear = ptr;
-	while (!feof(fp))
-	{
-		treePointer temp;
-		MALLOC(temp, sizeof(*temp));
-		fscanf(fp, "%d", &temp->data);
-		temp->leftChild = NULL;
-		temp->rightChild = NULL;
-			if (!rear->leftChild) {
-				rear->leftChild = temp;	
-			}
-			else if (!rear->rightChild&&rear->leftChild) {
-				rear->rightChild = temp;
-				rear = rear->leftChild;
-			}
-	
-	}
-
-	
-}
 
 void inorder(treePointer ptr);
 void preorder(treePointer ptr);
 void postorder(treePointer ptr);
+treePointer newNode();
+void insert(treePointer ptr, FILE* fp);
+
+void freelist(treePointer ptr) {
+	if (ptr) {
+		freelist(ptr->leftChild);
+		freelist(ptr->rightChild);
+		treePointer temp;
+		temp = ptr;
+		free(temp);
+	}
+}
 
 int main() {
 	FILE* fp;
@@ -67,6 +51,11 @@ int main() {
 	postorder(head);
 
 	fclose(fp);
+	freelist(head);
+	
+	head= NULL;
+
+
 
 	return 0;
 
@@ -95,3 +84,34 @@ void postorder(treePointer ptr) {
 		printf("%d ", ptr->data);
 	}
 }
+
+treePointer newNode() {
+	treePointer temp;
+	MALLOC(temp, sizeof(*temp));
+
+	return temp;
+}
+
+void insert(treePointer ptr, FILE* fp) {
+	treePointer rear = ptr;
+	while (!feof(fp))
+	{
+		treePointer temp;
+		MALLOC(temp, sizeof(*temp));
+		fscanf(fp, "%d", &temp->data);
+		temp->leftChild = NULL;
+		temp->rightChild = NULL;
+		if (!rear->leftChild) {
+			rear->leftChild = temp;
+		}
+		else if (!rear->rightChild && rear->leftChild) {
+			rear->rightChild = temp;
+			rear = rear->leftChild;
+		}
+
+	}
+
+
+}
+
+
