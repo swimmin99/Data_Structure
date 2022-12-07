@@ -19,8 +19,8 @@ FINAL
 |2022-11-02|[Doubly Linked List with Menu](https://github.com/swimmin99/Data_Structure/blob/main/04_List/List4.c)|이중리스트 메뉴|자료구조04 - 연결리스트|
 |2022-11-09|[Binary Tree Traversal]( https://github.com/swimmin99/Data_Structure/blob/main/05_Tree/traversal.c)|트리 순회|자료구조02 - 트리|
 |2022-11-09|[Heap Tree]( https://github.com/swimmin99/Data_Structure/blob/main/05_Tree/heaptree.c)|힙 트리|자료구조02 - 트리|
-|2022-11-14|[Graph 01](https://https://github.com/swimmin99/Data_Structure/blob/main/06_Graph/graph1-S.c)|그래프[^3]|자료구조01 - 그래프|
-|2022-11-14|[Graph 02](https://https://github.com/swimmin99/Data_Structure/blob/main/06_Graph/graph1-D.c)|그래프[^4]|자료구조01 - 그래프|
+|2022-11-14|[Graph 01](https://github.com/swimmin99/Data_Structure/blob/main/06_Graph/graph1-S.c)|그래프[^3]|자료구조01 - 그래프|
+|2022-11-14|[Graph 02](https://github.com/swimmin99/Data_Structure/blob/main/06_Graph/graph1-D.c)|그래프[^4]|자료구조01 - 그래프|
 |2022-11-16|[Graph DFS]( https://github.com/swimmin99/Data_Structure/blob/main/06_Graph/graph2.c)|그래프[^3]|자료구조02 - 그래프|
 |2022-11-16|[Graph DFS connect]( https://github.com/swimmin99/Data_Structure/blob/main/06_Graph/graph2-2.c)|그래프[^3]|자료구조02 - 그래프|
 |2022-11-19|[Graph BFS](https://github.com/swimmin99/Data_Structure/commit/7101e6b724c59d1d6d5cf936e9429e06342c9585)|그래프[^3]|자료구조03 - 그래프|
