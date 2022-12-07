@@ -3,17 +3,25 @@
 #include <stdlib.h>
 #define IS_EMPTY(first) (!(first))
 #define MALLOC(p,s) if (!((p) = malloc(s))) { fprintf(stderr, "Insufficient memory"); exit(EXIT_FAILURE);}
-
+#define MAX_QUEUE_SIZE 20
+#define Q_FULL(n) (n==MAX_QUEUE_SIZE-1)
+#define Q_EMPTY(front, rear) (front > rear)
 typedef struct node* treePointer;
 typedef struct node {
 	int data;
 	treePointer leftChild, rightChild;
 };
+treePointer queue[MAX_QUEUE_SIZE] = {0};
+int rear = 0;
+int front = 0;
 
 
 void inorder(treePointer ptr);
 void preorder(treePointer ptr);
 void postorder(treePointer ptr);
+void addq(treePointer item);
+treePointer deleteq();
+void levelOrder(treePointer ptr);
 treePointer newNode();
 void insert(treePointer ptr, FILE* fp);
 
@@ -49,6 +57,9 @@ int main() {
 	puts(" ");
 	printf("postorder : ");
 	postorder(head);
+	puts(" ");
+	printf("levelorder : ");
+	levelOrder(head);
 
 	fclose(fp);
 	freelist(head);
@@ -113,5 +124,45 @@ void insert(treePointer ptr, FILE* fp) {
 
 
 }
+
+void addq(treePointer item) {
+	if (Q_FULL(queue)) {
+		fprintf(stderr, "q full");
+	}
+	queue[++rear] = item;
+}
+
+treePointer deleteq() {
+	if (Q_EMPTY(front, rear)) {
+		fprintf(stderr, "q empty");
+			exit(EXIT_FAILURE);
+	}
+	
+	return queue[++front];
+}
+
+
+
+void levelOrder(treePointer ptr) {
+	front = 0; rear = 0;
+	treePointer queue[MAX_QUEUE_SIZE];
+	if (!ptr) return;
+	addq(ptr);
+	for (;;) {
+		ptr = deleteq();
+		if (ptr) {
+			printf("%d ", ptr->data);
+			if (ptr->leftChild)
+				addq(ptr->leftChild);
+			if (ptr->rightChild)
+				addq(ptr->rightChild);
+		}
+		else break;
+	}
+	
+}
+
+
+
 
 
