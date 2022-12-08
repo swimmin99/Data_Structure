@@ -25,6 +25,7 @@ int main() {
 	fscanf(fp, "%d", &size);
 
 	nodePointer head = (nodePointer)malloc(sizeof(*head) * (size+1));
+	//using index through 1~size thus need one more space
 	int i = 1;
 	while (!feof(fp)) {
 		fscanf(fp, "%d %s %d", &head[i].key, &head[i].name, &head[i].grade);
