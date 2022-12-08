@@ -1,3 +1,6 @@
+//txt input : key name age
+//	      key2 name2 age2
+//////////////////////////////////////
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
