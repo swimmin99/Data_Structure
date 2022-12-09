@@ -28,11 +28,9 @@ FINAL
 |2022-11-28|[HEAP Sort](https://github.com/swimmin99/Data_Structure/blob/main/07_Sort/heapsort.c)|정렬|자료구조02 - 정렬|
 |2022-11-28|[Radix Sort Integer](https://github.com/swimmin99/Data_Structure/blob/main/07_Sort/radix1.c)|정렬|자료구조02 - 정렬|
 |2022-11-30|[Radix Sort Dictionary](https://github.com/swimmin99/Data_Structure/blob/main/07_Sort/radix2.c)|정렬|자료구조03 - 정렬|
-|2022-12-02|[Hashing 01](https://github.com/swimmin99/Data_Structure/blob/main/07_Sort/radix2.c)|해싱|자료구조01 - 해싱|
-|2022-12-02|[Hashing 02](https://github.com/swimmin99/Data_Structure/blob/main/07_Sort/radix2.c)|해싱|자료구조01 - 해싱|
+|2022-12-02|[Hashing 01](https://github.com/swimmin99/Data_Structure/blob/main/08_Hashing/hash1.c)|해싱|자료구조01 - 해싱|
+|2022-12-02|[Hashing 02](https://github.com/swimmin99/Data_Structure/blob/main/08_Hashing/hash2.c)|해싱|자료구조01 - 해싱|
 
-https://github.com/swimmin99/Data_Structure/blob/main/08_Hashing/hash1.c
-https://github.com/swimmin99/Data_Structure/blob/main/08_Hashing/hash2.c
 </div>
 
 
