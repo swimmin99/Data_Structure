@@ -28,6 +28,7 @@ int main() {
 	for (int i = 1; i < size; i++) {
 		printf("%d ", arr[i].key);
 	}
+	fclose(fp);
 
 	return 0;
 }
