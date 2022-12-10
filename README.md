@@ -8,7 +8,7 @@
 
 FINAL
  ---
-|날짜|코드|문제유형|학습목표|
+|날짜|코드|유형|학습목표|
 |------|---|----|----|
 |2022-10-18|[List Sort 01](https://github.com/swimmin99/Data_Structure/blob/main/04_List/List1.c)|리스트 입력[^1]|자료구조01 - 연결리스트|
 |2022-10-18|[List Sort 02](https://github.com/swimmin99/Data_Structure/blob/main/04_List/List2.c)|리스트 입력[^2]|자료구조01 - 연결리스트|
