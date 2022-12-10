@@ -27,6 +27,7 @@ FINAL
 |2022-11-22|[Insertion Sort](https://github.com/swimmin99/Data_Structure/blob/main/07_Sort/InsertionSort.c)|정렬|자료구조01 - 정렬|
 |2022-11-23|[Quick Sort](https://github.com/swimmin99/Data_Structure/blob/main/07_Sort/quick.c)|정렬|자료구조02 - 정렬|
 |2022-11-23|[Merge Sort](https://github.com/swimmin99/Data_Structure/blob/main/07_Sort/merge.c)|정렬[^6]|자료구조02 - 정렬|
+|2022-11-23|[Merge Sort](https://github.com/swimmin99/Data_Structure/blob/main/07_Sort/rmergerecursivemy.c)|정렬[^7]|자료구조02 - 정렬|
 |2022-11-28|[HEAP Sort](https://github.com/swimmin99/Data_Structure/blob/main/07_Sort/heapsort.c)|정렬|자료구조03 - 정렬|
 |2022-11-28|[Radix Sort Integer](https://github.com/swimmin99/Data_Structure/blob/main/07_Sort/radix1.c)|정렬|자료구조03 - 정렬|
 |2022-11-30|[Radix Sort Dictionary](https://github.com/swimmin99/Data_Structure/blob/main/07_Sort/radix2.c)|정렬|자료구조04 - 정렬|
@@ -41,7 +42,8 @@ FINAL
 [^3]: adjecency Matrix, 노드포인터 배열 정적 할당
 [^4]: adjecency Matrix, 노드포인터 배열 동적 할당
 [^5]: preorder, inorder, postorder, levelorder
-[^6]: iterative version
+[^6]: Iterative version
+[^7]: Recursive version
 
 ---
 <p align = "left">
