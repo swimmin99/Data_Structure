@@ -25,9 +25,10 @@ FINAL
 |2022-11-16|[Graph DFS connect]( https://github.com/swimmin99/Data_Structure/blob/main/06_Graph/graph2-2.c)|그래프[^3]|자료구조02 - 그래프|
 |2022-11-19|[Graph BFS](https://github.com/swimmin99/Data_Structure/commit/7101e6b724c59d1d6d5cf936e9429e06342c9585)|그래프[^3]|자료구조03 - 그래프|
 |2022-11-22|[Insertion Sort](https://github.com/swimmin99/Data_Structure/blob/main/07_Sort/InsertionSort.c)|정렬|자료구조01 - 정렬|
-|2022-11-28|[HEAP Sort](https://github.com/swimmin99/Data_Structure/blob/main/07_Sort/heapsort.c)|정렬|자료구조02 - 정렬|
-|2022-11-28|[Radix Sort Integer](https://github.com/swimmin99/Data_Structure/blob/main/07_Sort/radix1.c)|정렬|자료구조02 - 정렬|
-|2022-11-30|[Radix Sort Dictionary](https://github.com/swimmin99/Data_Structure/blob/main/07_Sort/radix2.c)|정렬|자료구조03 - 정렬|
+|2022-11-22|[Quick Sort](https://github.com/swimmin99/Data_Structure/blob/main/07_Sort/quick.c)|정렬|자료구조02 - 정렬|
+|2022-11-28|[HEAP Sort](https://github.com/swimmin99/Data_Structure/blob/main/07_Sort/heapsort.c)|정렬|자료구조03 - 정렬|
+|2022-11-28|[Radix Sort Integer](https://github.com/swimmin99/Data_Structure/blob/main/07_Sort/radix1.c)|정렬|자료구조03 - 정렬|
+|2022-11-30|[Radix Sort Dictionary](https://github.com/swimmin99/Data_Structure/blob/main/07_Sort/radix2.c)|정렬|자료구조04 - 정렬|
 |2022-12-02|[Hashing 01](https://github.com/swimmin99/Data_Structure/blob/main/08_Hashing/hash1.c)|해싱|자료구조01 - 해싱|
 |2022-12-02|[Hashing 02](https://github.com/swimmin99/Data_Structure/blob/main/08_Hashing/hash2.c)|해싱|자료구조01 - 해싱|
 
