@@ -10,8 +10,8 @@ FINAL
  ---
 |날짜|코드|유형|학습목표|
 |------|---|----|----|
-|2022-10-18|[List Sort 01](https://github.com/swimmin99/Data_Structure/blob/main/04_List/List1.c)|리스트 입력[^1]|자료구조01 - 연결리스트|
-|2022-10-18|[List Sort 02](https://github.com/swimmin99/Data_Structure/blob/main/04_List/List2.c)|리스트 입력[^2]|자료구조01 - 연결리스트|
+|2022-10-18|[List Sort](https://github.com/swimmin99/Data_Structure/blob/main/04_List/List1.c)|리스트 입력[^1]|자료구조01 - 연결리스트|
+|2022-10-18|[List Sort](https://github.com/swimmin99/Data_Structure/blob/main/04_List/List2.c)|리스트 입력[^2]|자료구조01 - 연결리스트|
 |2022-10-18|[List Stack](https://github.com/swimmin99/Data_Structure/blob/main/04_List/listStack.c)|리스트 입력[^2]|자료구조01 - 연결리스트|
 |2022-10-31|[Polynominal](https://github.com/swimmin99/Data_Structure/blob/main/04_List/Polynominal.c)|다항식|자료구조02 - 연결리스트|
 |2022-11-31|[Sparce Matrix](https://github.com/swimmin99/Data_Structure/blob/main/04_List/SparceMatrix.c)|희소행렬|자료구조03 - 연결리스트|
@@ -26,6 +26,7 @@ FINAL
 |2022-11-19|[Graph BFS](https://github.com/swimmin99/Data_Structure/commit/7101e6b724c59d1d6d5cf936e9429e06342c9585)|그래프[^3]|자료구조03 - 그래프|
 |2022-11-22|[Insertion Sort](https://github.com/swimmin99/Data_Structure/blob/main/07_Sort/InsertionSort.c)|정렬|자료구조01 - 정렬|
 |2022-11-23|[Quick Sort](https://github.com/swimmin99/Data_Structure/blob/main/07_Sort/quick.c)|정렬|자료구조02 - 정렬|
+|2022-11-23|Merge Sort](https://github.com/swimmin99/Data_Structure/blob/main/07_Sort/merge.c)|정렬[^6]|자료구조02 - 정렬|
 |2022-11-28|[HEAP Sort](https://github.com/swimmin99/Data_Structure/blob/main/07_Sort/heapsort.c)|정렬|자료구조03 - 정렬|
 |2022-11-28|[Radix Sort Integer](https://github.com/swimmin99/Data_Structure/blob/main/07_Sort/radix1.c)|정렬|자료구조03 - 정렬|
 |2022-11-30|[Radix Sort Dictionary](https://github.com/swimmin99/Data_Structure/blob/main/07_Sort/radix2.c)|정렬|자료구조04 - 정렬|
@@ -40,6 +41,7 @@ FINAL
 [^3]: adjecency Matrix, 노드포인터 배열 정적 할당
 [^4]: adjecency Matrix, 노드포인터 배열 동적 할당
 [^5]: preorder, inorder, postorder, levelorder
+[^6]: iterative version
 
 ---
 <p align = "left">
